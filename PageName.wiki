@@ -1,10 +1,10 @@
 #summary FAQ.
 
-= How is it better than pluggin X for browser Y? =
+=== How is it better than pluggin X for browser Y? ===
 
 Broser extensions are great, but they are broser-specific by definition. "f5" is broser-independent, which is usually very important if you're a web designer.
 
 
-= Why the monitored page is sometimes reloaded and sometimes just "updated"? =
+=== Why the monitored page is sometimes reloaded and sometimes just "updated"? ===
 
 The page doesn't need to be reloaded if only CSS has changed. "f5" applies updated CSS by dynamically inserting it into a new style tag (at the end of the head tag). This way it works faster and causes less "flickering".
